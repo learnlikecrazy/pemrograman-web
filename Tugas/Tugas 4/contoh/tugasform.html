@@ -1,0 +1,75 @@
+<html>
+ <head>
+ <title>Form</title>
+ <link rel="stylesheet" type="text/css" href="tugasform.css">
+<style>
+	body{
+		background: linear-gradient(to right, #43cea2, #185a9d);
+	}
+</style>
+ </head>
+ <body>
+ 	<div class="form-style-2">
+	<div class="form-style-2-heading" style="font-weight: 1000">Form Pendaftaran</div>
+	 <form method="post" action="#">
+	 <fieldset>
+	 <legend>Biodata Diri</legend>
+	 <label>
+	 	<span>Nama 
+	 		<span class="required">*</span>
+	 	</span>
+	 	<input type="text" class="input-field" name="field1" /></label>
+	 <label>
+	 	<span>Jenis Kelamin 
+	 		<span class="required">*</span>
+	 	</span> 
+	 	<input type="radio" name="jk"  value="Laki-laki" />Laki-laki
+	 	<input type="radio" name="jk"  value="Perempuan" />Perempuan</label>
+	 <label>
+	 	<span>No Telepon</span>
+	 	<input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-
+	 	<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  />
+	 </label>
+	 <label>
+	 	<span>Tanggal Lahir 
+	 		<span class="required">*</span></span> 
+	 		<input type="date" name="bd" class="input-field"/>
+	 </label>
+	 <label>
+	 	<span>Hobi 
+	 		<span class="required">*</span>
+	 	</span> 
+	 		<input type="checkbox" name="h1" value="Sepakbola" />Sepakbola
+	 		<input type="checkbox" name="h2" value="Badminton" />Badminton
+	 		<input type="checkbox" name="h3" value="Sepeda" />Sepeda
+	 		<input type="checkbox" name="h4" value="Berenang" />Berenang
+	 </label>
+	 <label>
+	 	<span>Agama</span>
+	 		<select name="field4" class="select-field">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+				<option value="Konghucu">Konghucu</option>
+			</select>
+	</label>
+	<label for="field5">
+		<span>Alamat 
+			<span class="required">*</span>
+		</span>
+		<textarea class="textarea-field">
+			
+		</textarea>
+	</label>
+
+	<label>
+		<span> </span>
+		<input type="submit" value="Submit" />
+	</label>
+	</fieldset>
+	</form>
+	</div>
+</div>
+</body>
+<html>

@@ -1,0 +1,155 @@
+<html>
+     <head>
+      <title>Form</title>
+      <style type ="text/css" >
+       body { 
+           font-family :arial;
+       }
+         input [type = submit] {
+             background:  linear-gradient(to bottom,#0088CC,#0044CC);
+             border : 1px solid #0088CC;
+             color : #FFF;
+             margin : 4px 10px;
+             padding : 5px;
+             width : 100px;
+
+         }
+         input [type=submit]:hover { 
+             cursor : pointer;
+
+         }
+         input [type=reset] { 
+             background: linear-gradient(to bottom,#0088CC,#0044CC);
+                border : 1px solid #0088CC;
+                color : #FFF;
+                margin : 4px 10px;
+                padding : 5px;
+                width: 100px;
+         }
+
+           input [type=reset] :hover {
+               cursor : pointer;
+           }
+           input [type=reset]:active {
+               background: #0044CC;
+           }
+           select,
+           input [type*=date] ,
+           input [type=text] ,
+           input [type=tel] ,
+           input [type=email] ,
+           input [type=url] ,
+           input [type=password] {
+               border: 1px solid #ccc;
+               border-radius: 5px;
+               padding: 5px;
+               width: 225px;
+
+           }
+           fieldset{
+               border-radius: 5px;
+               background-color: #eeeeee;
+               width: 500px;
+
+           }
+           textarea{
+               border: 1px solid #ccc;
+               border-radius: 5px;
+               padding: 5px;
+               width : 225px;
+
+           }
+           fieldset {
+               border-radius: 5px;
+               background-color: #eeeeee;
+               width: 500px;
+
+           }
+           textarea { 
+               border : 1px solid #CCC;
+               border-radius : 5px;
+               padding : 5px;
+               width : 225px;
+
+           }
+           </style>
+           </head>
+           <body>
+        <form method="post" action="#">
+            <fieldset>
+            <legend>Form Data Diri</legend>
+     <table>
+          <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td><input type="text" name="nama" /></td>
+          </tr>
+
+          <tr>
+          <td>Password</td>
+          <td>:</td>
+          <td><input type="password" name="pass" /></td>
+          </tr>
+
+          <tr>
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td>
+           <input type="radio" name="jk" value="Laki-laki" />Laki-laki
+           <input type="radio" name="jk" value="Perempuan" />Perempuan
+          </td>
+           </tr>
+
+          <tr>
+         <td>Tanggal Lahir</td>
+           <td>:</td>
+         <td>
+           <input type="date" name="bd" />
+         </td>
+         </tr>
+
+          <tr>
+         <td>Hobi</td>
+          <td>:</td>
+         <td>
+            <input type="checkbox" name="h1" value="olahraga" />olahraga
+            <input type="checkbox" name="h2" value="seni" />seni
+            <input type="checkbox" name="h4" value="Membaca" />Membaca
+         </td>
+         </tr>
+
+         <tr>
+         <td>Agama</td>
+         <td>:</td>
+         <td><select name="agama">
+            <option value="">--Pilih--</option>
+            <option value="Islam">Islam</option>
+            <option value="Protestan">Protestan</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            </select>
+         </td>
+         </tr>
+
+         <tr>
+         <td>Alamat</td>
+         <td>:</td>
+         <td>
+           <textarea cols="25" rows="5" placeholder="Masukkan alamat"></textarea>
+         </td>
+         </tr>
+
+         <tr>
+         <td></td>
+          <td></td>
+          <td>
+            <input type="submit" value="Kirim" />
+            <input type="reset" value="Batal" />
+         </td>
+         </tr>
+    </table>
+           </fieldset>
+      </form>
+     </body>
+<html>

@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<head>
+ <title>Formulir Pendaftaran SMKN 1 Bontang</title>
+ <link rel="stylesheet" type="text/css" href="form.css">
+ <style>
+ 	body{
+		background: linear-gradient(to right, #d1913c, #ffd194);
+		font-family: arial;
+	};
+ </style>
+</head>
+<body>
+ <center>
+ 	<h2 style="font-size: 35px; color:
+			black; -webkit-text-stroke: 1px white;">Formulir Pendaftaran SMKN 1 Bontang</h2>
+ </center>
+	<form>
+			<fieldset>
+			<legend style="font-size: 20px;">Data Diri</legend>
+			<ul class="form-style-1">
+				<li>
+					<label>Nama Lengkap
+						<span class="required">*</span>
+					</label>
+					<input type="text" name="field1" class="field-divided" placeholder="Nama Pertama" /> 
+					<input type="text" name="field2" class="field-divided" placeholder="Nama Terakhir" />
+				</li>
+			    <li>
+			    	<label>Jenis Kelamin
+						<span class="required">*</span>
+					</label>
+					<input type="radio" name="" value="Laki-laki">Laki-Laki
+					<input type="radio" name="" value="Perempuan">Perempuan
+			    </li>
+			    <li>
+			    	<label>Tanggal Lahir
+						<span class="required">*</span>
+					</label>
+					<input type="date" class="field-divided" name="">
+			    </li>
+			    <li>
+			    	<label>Agama</label>
+					<select name="agama" class="field-select">
+							<option>----pilih----</option>
+							<option value="Islam">Islam</option>
+							<option value="Kristen">Kristen</option>
+							<option value="Budha">Budha</option>
+							<option value="Hindu">Hindu</option>
+							<option value="Konghucu">Konghucu</option>
+						</select>
+			    </li>
+			    <li>
+			    	<label>Alamat</label>
+			    	<textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+			    </li>
+			    <li><input type="submit" value="Submit" /></li>
+			</ul>
+		</fieldset>
+	</form>
+	</body>
+</html>

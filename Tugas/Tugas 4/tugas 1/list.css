@@ -1,0 +1,38 @@
+ul
+  {
+      list-style:none;
+      margin:0;
+      Padding:0;
+  }
+ul#nav li 
+  {
+      background-color:whitesmoke;
+      float:left;
+      margin-left:5px;
+  }  
+ul#nav li a
+  {
+      padding:5px;
+      display:block;
+      border:solid 1px #999;
+      text-decoration:none;
+      color:black;
+      border-radius:3px;
+  }  
+ul#nav li a:hover
+  {
+      background-color:skyblue;
+  }  
+ul#nav li ul li
+  {
+      float:none;
+  }  
+ul#nav li ul 
+  {
+      position:absolute;
+      display:none;
+  }  
+ul#nav li:hover ul 
+  {
+      display:block;
+  }

@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Layout Dasar Dokumen Web</title>
+
+
+        <style type="text/css">
+            body {
+                width: 960px;
+            }
+            header, nav, aside, section, footer {
+                    border: 1px solid white;
+                    font-family: arial;
+            }
+            header, nav{
+                width: 100%;
+                border-radius: 20px;
+            }
+
+            header {
+                text-align: center;
+                font-size: 32px;
+                background: #99ccff;
+                height: 100px;
+                line-height: 100px;
+            }
+            nav {
+                background: #ffffcc;
+                height: 50px;
+                line-height: 50px;
+            }
+            nav ul a{
+                text-decoration: none;
+                color: black;
+                float: left;
+                margin-left: 20px;
+                padding-right: 20px;
+                border-right: solid 1px black;
+            }
+            aside {
+                margin-top: 5px;
+                float: left;
+                height: 250px;
+                width: 29.5%;
+            }
+            ul
+            {
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            ul#nav li
+            {
+
+                background-color:whitesmoke;
+                float:left;
+                margin-left:5px;
+            }
+            ul#sidecont li a
+            {
+                padding:5px;
+                width: 250px;
+                display:block;
+                border:solid 1px #999;
+                text-decoration:none;
+                color:black;
+                border-radius:3px;
+            }
+            ul#sidecont li a:hover
+            {
+                background-color:skyblue;
+            }
+            ul#sidecont li ul li
+            {
+                float:none;
+            }
+            ul#sidecont li ul
+            {
+                position: absolute;
+                display:none;
+            }
+            ul#sidecont li:hover ul
+            {
+                display:block;
+            }
+            section#content 
+            {
+                margin-top: 5px;
+                margin-bottom:5px;
+                background: #eeeeee;
+                float: right;
+                padding: 10px;
+                height: auto;
+                width: 68%;
+                border-radius: 5px;
+            }
+            footer{
+                clear: both;
+                color: white;
+                background: #666666;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            Anak Bengkel
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" >Beranda</a></li>
+                <li><a href="#">Teori</a></li>
+                <li><a href="#">Praktikum</a></li>
+            </ul>
+            </nav>
+            <aside>
+                <ul id="sidecont">
+    <li><a href="#">Pemograman Web</a></li>
+    <li><a href="#">Algoritma Pemograman</a></li>
+    <li><a href="#">Perograman Java</a></li>
+    <li><a href="#">Jaringan</a></li>
+    <li><a href="#">Sistem Digital</a></li>
+                </ul>
+            </aside>
+            <section id="content">
+    <h1>Menyisipkan Media</h1>
+    <h3>Menyisipkan File Gambar</h3>
+    tag ini digunakan untuk menampilkan atau menempelkan file Gambar di halaman website.
+    <img src="bontang.png" height="100"/>
+    <h1> Menyisipkan File Audio</h1>
+    Tag ini digunakan untuk menampilkan atau menempelkan file audio di halaman website.
+    <audio controls="iscuit.mp3">
+    <source src="biscuit.mp3" type="audio/mp3"/>
+    </audio>
+    <h1> Menyisipkan File Video</h1>
+    Tag ini digunakan untuk menyisipkan file video di halaman website.
+    <video controls="NCS.mp4" width="320" height="240">
+    <source src="NCS.mp4" type="video/mp4"/>
+                </video>
+            </section>
+            <footer>Copyright STITEK &COPY; 2018</footer>
+        </body>
+    </html>

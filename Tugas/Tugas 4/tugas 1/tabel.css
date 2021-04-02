@@ -1,0 +1,35 @@
+h3
+   {
+       font-family:arial;
+   }
+table
+   {
+       width:500px;
+       border-collapse:collapse;
+   }   
+th
+   {
+       background-color:red;
+       border-radius:10px 10px 0px 0px;
+       padding: 5px 10px;
+       border: solid 1px white;
+       font-family:arial;
+   }   
+tr.ganjil
+   {
+       background-color: #cccccc;
+   }   
+tr.genap
+   {
+       background-color: whitesmoke;
+   }   
+tr.hover
+   {
+       background-color:skyblue;
+   }   
+td
+   {
+       text-align:center;
+       border:solid 1px white;
+       font-family:arial;
+   }
